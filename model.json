@@ -1,0 +1,13 @@
+{
+    "user": {
+        "firstname": {"type": "text", "tags": ["required"]},
+        "lastname": {"type": "text", "tags": ["required"]},
+        "company": {"type": "text"},
+        "car": {"type": "foreign", "show": "model"}
+    },
+    "car": {
+        "serial": {"type": "text", "tags": ["required"]},
+        "model": {"type": "text", "tags": ["required"]},
+        "speed": {"type": "number"}
+    }
+}

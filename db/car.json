@@ -1,0 +1,22 @@
+{
+   "data": [
+      {
+         "serial": "54a236b1d39fe1ea",
+         "model": "Renault Clio",
+         "speed": 160,
+         "id": 907847899877491087
+      },
+      {
+         "serial": "19ba61bfb341a432",
+         "model": "Citroën Ami",
+         "speed": 45,
+         "id": 770347697315201696
+      },
+      {
+         "serial": "ca4dbdf6b512dc8b",
+         "model": "Lamborghini Huracán",
+         "speed": 325,
+         "id": 572796661972839252
+      }
+   ]
+}

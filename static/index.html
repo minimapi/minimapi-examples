@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>[name]</title>
+		<script type='text/javascript' src="https://cdn.jsdelivr.net/gh/minimapi/minimapi-client/minimapi-client.js"></script>
+		<script type='text/javascript' src="https://cdn.jsdelivr.net/gh/minimapi/minimapi-client-ui/minimapi-client-ui.js"></script>
+		<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/minimapi/minimapi-client-ui/minimapi-client-ui.css">
+	</head>
+	<body>
+		<center>
+			<br/><br/><br/>
+			<table id="cars_table"></table>
+			<br/><br/><br/>
+			<table id="users_table"></table>
+		</center>
+		<script>
+			let client = new MinimAPI('/api/')
+			new MinimAPI_UI(client, 'car', 'cars_table')
+			new MinimAPI_UI(client, 'user', 'users_table')
+		</script>
+	</body>
+</html>
